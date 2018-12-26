@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "169582970063",
+    "firebase_url": "https://tastycity-223113.firebaseio.com",
+    "project_id": "tastycity-223113",
+    "storage_bucket": "tastycity-223113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169582970063:android:dbf28d77ea9a8a96",
+        "android_client_info": {
+          "package_name": "com.example.bartosz.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169582970063-6c0hk5pfuu66lfpfp4k5uclajjktfqfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bartosz.myapplication",
+            "certificate_hash": "ce800ad3c02e9893acb8a4a4d9e624c905084876"
+          }
+        },
+        {
+          "client_id": "169582970063-uon29lt47cqpn33miq5l595hsq356kci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkRmWv9pj2nLrrZa_xsbta2gOuYaQgLjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169582970063-uon29lt47cqpn33miq5l595hsq356kci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -43,8 +43,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.textViewRegister:
 
                 startActivity(new Intent(this, RegisterActivity.class));
-
                 break;
+
             case R.id.buttonLogin:
                 userLogin();
                 break;

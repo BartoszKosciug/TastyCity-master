@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:title="Only open restaurants?"
+            android:key="open_res"
+            android:summary="Turn this option on or off" />
+
+        <ListPreference
+            android:key="list_price"
+            android:title="Restaurant prices"
+            android:summary="Prefered price of the meal"
+            android:entries="@array/list_price"
+            android:entryValues="@array/list_price"
+            android:defaultValue="Inexpensive"/>
+
+        <ListPreference
+            android:key="list_rating"
+            android:title="Restaurant rating"
+            android:summary="Prefered rating of the restaurant"
+            android:entries="@array/list_rating"
+            android:entryValues="@array/list_rating"
+            android:defaultValue="5 stars"/>
+
+        <ListPreference
+            android:key="list_radius"
+            android:title="Radius"
+            android:summary="Maximum distance to restaurant"
+            android:entries="@array/list_radius"
+            android:entryValues="@array/list_radius"
+            android:defaultValue="1 km"/>
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="http://schemas.android.com/apk/res-auto">
+
+    <!-- used to need this custom namespace with 'app compatibility' libraries -->
+    <!--xmlns:myapp="http://schemas.android.com/apk/res-auto">-->
+
+    <!-- from the docs: to request that an item appear directly in the action bar as an action button, include showAsAction="ifRoom" -->
+    <!-- menu resources: http://developer.android.com/guide/topics/resources/menu-resource.html -->
+
+    <!-- add quote -->
+    <item android:id="@+id/menuLogout"
+        android:icon="@drawable/logout"
+        android:title="Logout"
+        myapp:showAsAction="ifRoom"/>
+
+    <!-- prefs -->
+    <item android:id="@+id/menuSettings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Settings"
+        myapp:showAsAction="ifRoom" />
+
+</menu>
